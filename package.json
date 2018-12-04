@@ -1,0 +1,24 @@
+{
+  "name": "tangy-location",
+  "main": "tangy-location.js",
+  "scripts": {
+    "start": "./node_modules/.bin/polymer serve",
+    "test": "./node_modules/.bin/polymer test",
+    "publish": "cp loc.js loc.mjs && npm publish && rm loc.mjs"
+  },
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "tangy-form": "^2.11.0",
+    "tangy-translate": "^1.0.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "polymer-cli": "^1.9.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "wct-mocha": "^1.0.0"
+  }
+}
